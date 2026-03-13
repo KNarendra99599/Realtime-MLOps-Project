@@ -1,6 +1,14 @@
-data/
+# Ignore dataset files
+data/*
+!data/*.dvc
+
+# Ignore model binaries
 models/*.pkl
+
+# Python
 *.pyc
 __pycache__/
+
+# DVC cache
 .dvc/cache
 .dvc/tmp
